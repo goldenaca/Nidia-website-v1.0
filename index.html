@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style_main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cabañas Bariloche</title>
+    <!-- slider -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <!-- icons -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- FAMILY -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="navegation">
+        <div class="menu-icon">
+            <i class="fa fa-bars"></i>
+        </div>
+        <h2 class="name">CABAÑAS NIDIA</h2>
+        <ul class="flex-cont1">
+            <li><a href="barilago.html">BARILAGO</a></li>
+            <li><a href="#">RAYUELA</a></li>
+            <li><a href="#">SOÑADOR</a></li>
+        </ul>
+    </header>
+    <div class="container">
+        <!-- sldier -->
+        <section class="slider-wrap">
+            <ul class="slider">
+                <li><img src="img/showcase/S0.jpg" alt="S0"></li>
+                <li><img src="img/showcase/S1.png" alt="S1"></li>
+                <li><img src="img/showcase/S2.jpg" alt="S2"></li>
+                <li><img src="img/showcase/S3.jpg" alt="S3"></li>
+                <li><img src="img/showcase/S4.jpg" alt="S4"></li>
+                <li><img src="img/showcase/S5.jpg" alt="S5"></li>
+                <li><img src="img/showcase/S6.jpg" alt="S6"></li>
+                <li><img src="img/showcase/S7.jpg" alt="S7"></li>
+            </ul>
+        </section>
+        <!-- PRESENTACION -->
+        <h1> ADMINISTRACIÓN </h1>
+        <div class="info">
+            <img src="img/EL MEJOR.jpg" alt="Foto Perfil" class="foto-perfil">
+            <div class="info-perfil">
+                <h2> Hola, soy Nidia</h2>
+                <p class="perfil">   Trabajo en turismo desde hace mas de diez años. Con muy buena predisposición para lograr una buena estadía de los visitantes. Pueden escribirnos ademas de español en inglés o portugues. Hi, you can write us in portuges or english, will do our best!</p>
+            </div>
+        </div>
+        <!-- VIDEO -->
+        <H1> CONOCE NUESTRA CIUDAD</H1>
+        <div class="video">
+            <iframe width="1320" height="750" src="https://www.youtube.com/embed/CL9ybY256_Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <!-- cabañas -->
+        <H1> CABAÑAS </H1>
+        <div class="cont-cabañas">
+
+                <div class="cabañas">
+                    <a href="#"><h3>RAYUELA</h3></a>
+                    <img src="img/CAB_RAYUELA.jpg">
+                    <p class="dev"><br>COMING SOON</p>
+                </div>
+
+                <div class="cabañas">
+                    <a href="barilago.html"><h3>BARILAGO</h3></a>
+                    <img src="img/CAB_BARILAGO.jpg">
+                    <p> Cabaña muy luminosa y agradable.<br> Se encuentra a escasos metros de la costa y tiene una excelente vista al lago Nahuel Huapi.
+                     </p>
+                </div>
+
+                <div class="cabañas">
+                    <a href="#"><h3>SOÑADOR</h3></a>
+                    <img src="img/CAB_SOÑADOR.png">
+                    <p class="dev"><br>COMING SOON</p>
+                </div>
+        </div>
+    </div>
+    <footer class="pie" id="footer">
+        <ul class="contacto">
+            <li>
+                <i class="fa fa-phone"> +5492944299899</i>
+            </li>
+            <li>
+                <i class="fa fa-envelope">
+                    barilago.patagonia@gmail.com
+                </i>
+            </li>
+        </ul>
+        <div class="copyright">
+            <p> COPYRIGHT 2020 &copy;<a href="https://www.instagram.com/sebastian.saporiti/"> 
+                Designed by Sebastian Saporiti</a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- slider -->
+    <script>
+        $(document).ready(function(){
+          $('.slider').bxSlider({mode: 'fade'});
+        });
+    </script>
+    <script src="main.js"></script>
+</body>
+</html>

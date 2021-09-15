@@ -1,0 +1,365 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat';
+    letter-spacing: 2px;
+    box-sizing: border-box;
+}
+
+h1{
+    font-weight: bold;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: rgb(63, 63, 63);
+}
+
+.dev{
+    font-weight: bold;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
+body{
+    font-family: sans-serif;
+    background-color: #eeedee;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%232b1e1e' fill-opacity='0.23' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+}
+.container{
+    text-align: center;
+    margin: auto;
+}
+
+.menu-icon{
+    display: none;
+    float: right;
+}
+
+.flex-cont1{
+    display: flex;
+    margin-right: 20px;
+}
+
+.flex-cont1 li{
+    list-style: none;
+    margin: 0 20px;
+    padding: 10px;
+}
+
+.flex-cont1 li a{
+    text-decoration: none;
+    color: #ecf0f1;
+    font-weight: bold;
+    font-size: 100%;
+}
+
+.flex-cont1 a:hover{
+    color: #a3a3a3;
+    transition: all 0.2s linear;
+}
+
+.name{
+    margin-left: 10px;
+    font-size: 200%;
+    font-weight: bold;
+}
+.navegation{
+    padding: 8px;
+    background:black;
+    color: rgb(218, 218, 218);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+/* SLIDER */
+.slider-wrap{
+    margin: auto;
+    margin-top: 120px;
+    width: 90%;
+    max-width: 1200px;
+}
+/* PRESENTACION */
+.foto-perfil{
+    border-radius: 5000px;
+    width: 250px;
+    border: 1px solid black;
+    height: 250px;
+    margin: 50px;
+}
+.info{
+    display: flex;
+    margin: auto;
+    width: 90%;
+    font-size: 150%;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 50px;
+    text-align: center;
+    align-items: center;
+}
+.info-perfil{
+    padding:40px;
+    color:#524c56;
+    border-radius: 60px;
+}
+.info h2{
+    margin-bottom: 25px;
+}
+
+.video iframe{
+    max-width: 90%;
+}
+
+/* cabañas */
+
+.cabañas{
+    padding: 10%;
+    background: #fff;
+}
+.cont-cabañas{
+    margin: 0 auto;
+    display: grid;
+    width: 90%;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.cabañas img{
+    width: 280px;
+    max-width: 90%;
+    border-radius:500px;
+    border: 2px solid #696969;
+    margin: 40px 0;
+}
+.cabañas h3{
+    font-size: 200%;
+    line-height: 50px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #524c56;
+}
+.cabañas p{
+    font-size: 120%;
+    text-align: center;
+}
+p {
+    color: #524c56;
+    text-align: justify;
+    line-height: 130%;
+}
+.cabañas a{
+    display: block;
+    margin-bottom: 20px;
+    border: 1px solid #524c56;
+    transition: 0.4s;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 80%;
+    margin: auto;
+}
+
+.cabañas a h3{
+    font-size: 200%;
+}
+.cabañas a h3:hover{
+    color: #ecf0f1;
+}
+.cabañas a:hover{
+    background: #474747;
+}
+.cont-contacto{
+    margin: 0 auto;
+    border-bottom: 1px solid white;
+    background: #474747;
+}
+.pie{
+    color: #cacaca;
+    background: rgb(22, 22, 22);
+    list-style: none;
+    text-decoration: none;
+    margin-top: 80px;
+}
+.pie a{
+    color: rgb(0, 177, 103);
+}
+.contacto{
+    padding: 30px;
+    border-bottom: oldlace 1px solid;
+    text-align: center;
+    list-style: none;
+    font-size: 180%;
+}
+.contacto i{
+    letter-spacing: 4px;
+}
+.copyright{
+    padding: 20px;
+    text-align: center;
+    background:black;
+    margin: auto;
+}
+.copyright p{
+    text-align: center;
+}
+
+@media (max-width: 1100px){
+    .info h2{
+        margin-top: 30px;
+    }
+    .cont-cabañas{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+    .cabañas{
+        height: 650px;
+        margin-bottom: 100px;
+        overflow: hidden;
+        border-radius: 10px;
+    }
+    .cabañas a{
+        width: 50%;
+        margin: auto;
+    }
+    .cabañas img{
+        width: 280px;
+        margin-bottom: 50px;
+    }
+   .video iframe{
+        width: 80%;
+        height: 400px;
+    }
+    .info{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+    .info img{
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-bottom: -30px;
+    }
+    .slider-wrap{
+        margin-top: 150px;
+    }
+    .flex-cont1{
+        transform: translatey(-200px);
+        position: absolute;
+        right: 0;
+        top: 0;
+        background:black ;
+        margin-top: 55px;
+        margin-right: 0;
+        width: 100%;
+        transition: 0.8s;
+    }
+    .flex-cont2{
+        position: absolute;
+        right: 0;
+        top: 0;
+        background:black ;
+        margin-top: 55px;
+        margin-right: 0;
+        width: 100%;
+        transform: translateX(0px);
+        transition: 0.8s;
+    }
+    .flex-cont1 li{
+        font-size: 120%;
+        margin: 0 auto;
+    }
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+    .menu-icon i:hover{
+        color: #a3a3a3;
+        transition: 0.2s;
+    }
+    .menu-icon i{
+        color: #fff;
+        font-size: 220%;
+        margin-right: 50px;
+        padding: 0 20px;
+    }
+    .navegation{
+        display: inline;
+    }
+    .fa-times{
+        transition: 1s;
+    }
+    .fa-bars{
+        transition: 1s;
+    }
+    .copyright{
+        font-size: 80%;
+    }
+    .contacto{
+        font-size: 130%;
+    }
+
+}
+@media (max-width: 600px){
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+        width: 40px;
+        text-align: center;
+    }
+
+    .menu-icon i{
+        color: #fff;
+        font-size: 120%;
+        margin-right: 0px;
+        padding: 0px;
+    }
+
+    .name{
+        font-size: 120%;
+    }
+
+    .flex-cont2{
+        margin-top: 40px;
+        font-size: 65%;
+    }
+
+    .slider-wrap{
+        margin-top: 100px;
+    }
+
+    h1{
+        margin-top: 80px;
+        margin-bottom: 30px;
+        font-size: 130%;
+    }
+    .info{
+        font-size: 100%;
+    }
+    .perfil{
+        text-align: center;
+    }
+    .video iframe{
+        width: 100%;
+        height: 190px;
+    }
+    footer{
+        font-size: 58%;
+    }
+    .cabañas a{
+        width: 90%;
+        font-size: 75%;
+        line-height: 50px;
+    }
+    .cabañas{
+        height: 100%;
+    }
+    .cabañas p{
+        font-size: 100%;
+    }
+}
+
+

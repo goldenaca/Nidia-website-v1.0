@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles_barilago.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Barilago
+    </title>
+    <!-- slider -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <!-- icons -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- FAMILY -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body> 
+
+    <header class="navegation">
+
+        <h2 class="name">BARILAGO</h2>
+        
+        <div class="menu-icon"><i class="fa fa-bars"></i></div>
+
+        <ul class="menu">
+            <li><a href="index.html">INICIO</a></li>
+            <li><a href="#servicios">SERVICIOS</a></li>
+            <li><a href="#ubicacion">UBICACION</a></li>
+            <li><a href="#galeria">GALERIA</a></li>
+            <li><a href="#footer">CONTACTO</a></li>
+        </ul>
+        
+    </header>
+
+    <main class="main">
+
+        <h1 id="inicio">¿COMO ES BARILAGO?</h1>
+        
+        <p>El departamento es muy luminoso, agradable y acogedor. Tiene un ventanal hasta el piso con hermosa vista al Lago Nahuel Huapi, y abre hacia un balcón especial para relajarse mientras se disfruta de la vista. La ubicación es estratégica, a 200 mts de acceso a una playa pública , de supermercado, cervecerías mas populares de Bariloche y a pocos metros de la costa del lago. Las paradas de colectivo también están a corta distancia tanto para ir al centro de la ciudad como para ir a Colonia Suiza.</p>
+
+        <h1 id="servicios">SERVICIOS</h1>
+
+        <div class="servicios">
+            <img src="img/img_portada.png">
+            <ul class="lista">
+                <li> Vajilla completa para 4 personas.</li>
+                <li>microonda, heladera bajo mesada.</li>
+                <li>Estacionamiento a nivel de la Avda.</li>
+                <li>Detector de monóxido de carbono</li>
+            </ul>
+            <ul class="lista">
+                <li> wi fi - cable</li>              
+                <li>Secador de pelo</li>
+                <li>¡Bien calefacciónada!</li>
+                <li>Ganchos para ropa</li>
+            </ul>
+        </div>
+
+        <h1>UBICACION</h1>
+
+        <div class="ubicacion" id="ubicacion">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3005.433866746785!2d-71.3587381!3d-41.1250537!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x961a7a680ad3433d%3A0x27fffb765510c322!2sAv.%20Exequiel%20Bustillo%204300%2C%20San%20Carlos%20de%20Bariloche%2C%20R%C3%ADo%20Negro!5e0!3m2!1ses-419!2sar!4v1594063302662!5m2!1ses-419!2sar" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+
+    </main>
+
+
+
+    <!-- GALLERY -->
+
+
+    <div class="gallery" id="galeria">  
+
+        <div class="titulo-gal">
+            GALERIA
+        </div>
+            
+        <ul class="galeria">
+            <li><a href="#img1"><img src="img/img_1.png" alt=""></a></li>
+            <li><a href="#img2"><img src="img/img_2.png" alt=""></a></li>
+            <li><a href="#img3"><img src="img/img_3.png" alt=""></a></li>
+            <li><a href="#img4"><img src="img/img_4.png" alt=""></a></li>
+            <li><a href="#img5"><img src="img/img_5.png" alt=""></a></li>
+            <li><a href="#img6"><img src="img/img_6.png" alt=""></a></li>
+            <li><a href="#img7"><img src="img/img_7.png" alt=""></a></li>
+            <li><a href="#img8"><img src="img/img_8.png" alt=""></a></li>
+            <li><a href="#img9"><img src="img/img_9.png" alt=""></a></li>
+            <li><a href="#img10"><img src="img/img_10.png" alt=""></a></li>
+            <li><a href="#img11"><img src="img/img_11.png" alt=""></a></li>
+            <li><a href="#img12"><img src="img/img_12.png" alt=""></a></li>
+        </ul>
+        
+        <!-- GALLERY FUNCTIONS -->
+
+        <div class="modal" id="img1">
+            <h3>1/12</h3>
+            <div class="imagen">
+                <a href="#img12"><i class="fa fa-angle-left"></i></a>
+                <a href="#img2"><img src="img/img_1.png"></a>
+                <a href="#img2"><i class="fa fa-angle-right"></i></a>
+            </div>
+            <a href="#galeria" class="cerrar"><i class="fa fa-times"></i></a>
+        </div>
+
+        <div class="modal" id="img2">
+            <h3>2/12</h3>
+            <div class="imagen">
+                <a href="#img1"><i class="fa fa-angle-left"></i></a>
+                <a href="#img3"><img src="img/img_2.png"></a>
+                <a href="#img3"><i class="fa fa-angle-right"></i></a>
+            </div>
+            <a href="#galeria" class="cerrar"><i class="fa fa-times"></i></a>
+        </div>
+
+        <div class="modal" id="img3">
+            <h3>3/12</h3>
+            <div class="imagen">
+                <a href="#img2"><i class="fa fa-angle-left"></i></a>
+                <a href="#img4"><img src="img/img_3.png"></a>
+                <a href="#img4"><i class="fa fa-angle-right"></i></a>
+            </div>
+            <a href="#galeria" class="cerrar"><i class="fa fa-times"></i></a>
+        </div>
+
+        <div class="modal" id="img4">
+            <h3>4/12</h3>
+            <div class="imagen">
+                <a href="#img3"><i class="fa fa-angle-left"></i></a>
+                <a href="#img5"><img src="img/img_4.png"></a>
+                <a href="#img5"><i class="fa fa-angle-right"></i></a>
+            </div>
+            <a href="#galeria" class="cerrar"><i class="fa fa-times"></i></a>
+        </div>
+
+        <div class="modal" id="img5">
+            <h3>5/12</h3>
+            <div class="imagen">
+                <a href="#img4"><i class="fa fa-angle-left"></i></a>
+                <a href="#img6"><img src="img/img_5.png"></a>
+                <a href="#img6"><i class="fa fa-angle-right"></i></a>
+            </div>
+            <a href="#galeria" class="cerrar"><i class="fa fa-times"></i></a>
+        </div>
+
+        <div class="modal" id="img6">
+            <h3>6/12</h3>
+            <div class="imagen">
+                <a href="#img5"><i class="fa fa-angle-left"></i></a>
+                <a href="#img7"><img src="img/img_6.png"></a>
+                <a href="#img7"><i class="fa fa-angle-right"></i></a>
+            </div>
+            <a href="#galeria" class="cerrar"><i class="fa fa-times"></i></a>
+        </div>
+
+        <div class="modal" id="img7">
+            <h3>7/12</h3>
+            <div class="imagen">
+                <a href="#img6"><i class="fa fa-angle-left"></i></a>
+                <a href="#img8"><img src="img/img_7.png"></a>
+                <a href="#img8"><i class="fa fa-angle-right"></i></a>
+            </div>
+            <a href="#galeria" class="cerrar"><i class="fa fa-times"></i></a>
+        </div>
+
+        <div class="modal" id="img8">
+            <h3>8/12</h3>
+            <div class="imagen">
+                <a href="#img7"><i class="fa fa-angle-left"></i></a>
+                <a href="#img9"><img src="img/img_8.png"></a>
+                <a href="#img9"><i class="fa fa-angle-right"></i></a>
+            </div>
+            <a href="#galeria" class="cerrar"><i class="fa fa-times"></i></a>
+        </div>
+
+        <div class="modal" id="img9">
+            <h3>9/12</h3>
+            <div class="imagen">
+                <a href="#img8"><i class="fa fa-angle-left"></i></a>
+                <a href="#img10"><img src="img/img_9.png"></a>
+                <a href="#img10"><i class="fa fa-angle-right"></i></a>
+            </div>
+            <a href="#galeria" class="cerrar"><i class="fa fa-times"></i></a>
+        </div>
+
+        <div class="modal" id="img10">
+            <h3>10/12</h3>
+            <div class="imagen">
+                <a href="#img9"><i class="fa fa-angle-left"></i></a>
+                <a href="#img11"><img src="img/img_10.png"></a>
+                <a href="#img11"><i class="fa fa-angle-right"></i></a>
+            </div>
+            <a href="#galeria" class="cerrar"><i class="fa fa-times"></i></a>
+        </div>
+
+        <div class="modal" id="img11">
+            <h3>11/12</h3>
+            <div class="imagen">
+                <a href="#img10"><i class="fa fa-angle-left"></i></a>
+                <a href="#img12"><img src="img/img_11.png"></a>
+                <a href="#img12"><i class="fa fa-angle-right"></i></a>
+            </div>
+            <a href="#galeria" class="cerrar"><i class="fa fa-times"></i></a>
+        </div>
+
+        <div class="modal" id="img12">
+            <h3>12/12</h3>
+            <div class="imagen">
+                <a href="#img11"><i class="fa fa-angle-left"></i></a>
+                <a href="#img1"><img src="img/img_12.png"></a>
+                <a href="#img1"><i class="fa fa-angle-right"></i></a>
+            </div>
+            <a href="#galeria" class="cerrar"><i class="fa fa-times"></i></a>
+        </div>
+
+        
+
+    </div> 
+
+    <footer class="pie" id="footer">
+        <ul class="contacto">
+            <li>
+                <i class="fa fa-phone"> +5492944299899</i>
+            </li>
+            <li>
+                <i class="fa fa-envelope">
+                    barilago.patagonia@gmail.com
+                </i>
+            </li>
+        </ul>
+        <div class="copyright">
+            <p> COPYRIGHT 2020 &copy;<a href="https://www.instagram.com/sebastian.saporiti/"> 
+                Designed by Sebastian Saporiti</a>
+            </p>
+        </div>
+    </footer>
+
+
+    <script src="main_barilago.js"></script>
+</body>
+</html>
